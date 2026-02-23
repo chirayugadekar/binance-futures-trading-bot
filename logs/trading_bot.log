@@ -1,0 +1,7 @@
+2026-02-23 22:45:05 | ERROR | CLI | Unhandled error.
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\Trading Bot\cli.py", line 43, in main
+    client = BinanceFuturesClient().get_client()
+  File "C:\Users\HP\Desktop\Trading Bot\bot\client.py", line 20, in __init__
+    raise EnvironmentError(
+OSError: API keys not found. Please configure .env file.
